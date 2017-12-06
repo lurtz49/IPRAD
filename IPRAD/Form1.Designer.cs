@@ -28,58 +28,74 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.picOriginal = new System.Windows.Forms.PictureBox();
+            this.picResult = new System.Windows.Forms.PictureBox();
+            this.btnOpen = new System.Windows.Forms.Button();
+            this.btnGray = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.picOriginal)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picResult)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // picOriginal
             // 
-            this.button1.Location = new System.Drawing.Point(115, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(224, 146);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.picOriginal.Location = new System.Drawing.Point(38, 21);
+            this.picOriginal.Name = "picOriginal";
+            this.picOriginal.Size = new System.Drawing.Size(370, 333);
+            this.picOriginal.TabIndex = 0;
+            this.picOriginal.TabStop = false;
             // 
-            // checkBox1
+            // picResult
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(146, 197);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.picResult.Location = new System.Drawing.Point(448, 21);
+            this.picResult.Name = "picResult";
+            this.picResult.Size = new System.Drawing.Size(370, 333);
+            this.picResult.TabIndex = 1;
+            this.picResult.TabStop = false;
             // 
-            // comboBox1
+            // btnOpen
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(180, 264);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 2;
+            this.btnOpen.Location = new System.Drawing.Point(178, 373);
+            this.btnOpen.Name = "btnOpen";
+            this.btnOpen.Size = new System.Drawing.Size(100, 44);
+            this.btnOpen.TabIndex = 2;
+            this.btnOpen.Text = "Open";
+            this.btnOpen.UseVisualStyleBackColor = true;
+            this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
+            // 
+            // btnGray
+            // 
+            this.btnGray.Location = new System.Drawing.Point(595, 373);
+            this.btnGray.Name = "btnGray";
+            this.btnGray.Size = new System.Drawing.Size(100, 44);
+            this.btnGray.TabIndex = 3;
+            this.btnGray.Text = "Gray";
+            this.btnGray.UseVisualStyleBackColor = true;
+            this.btnGray.Click += new System.EventHandler(this.btnGray_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(443, 344);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(884, 457);
+            this.Controls.Add(this.btnGray);
+            this.Controls.Add(this.btnOpen);
+            this.Controls.Add(this.picResult);
+            this.Controls.Add(this.picOriginal);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "IPRAD";
+            ((System.ComponentModel.ISupportInitialize)(this.picOriginal)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picResult)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.PictureBox picOriginal;
+        private System.Windows.Forms.PictureBox picResult;
+        private System.Windows.Forms.Button btnOpen;
+        private System.Windows.Forms.Button btnGray;
+
     }
 }
 
