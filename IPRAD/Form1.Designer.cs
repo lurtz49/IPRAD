@@ -38,7 +38,7 @@
             // 
             // picOriginal
             // 
-            this.picOriginal.Location = new System.Drawing.Point(38, 21);
+            this.picOriginal.Location = new System.Drawing.Point(27, 12);
             this.picOriginal.Name = "picOriginal";
             this.picOriginal.Size = new System.Drawing.Size(370, 333);
             this.picOriginal.TabIndex = 0;
@@ -46,7 +46,7 @@
             // 
             // picResult
             // 
-            this.picResult.Location = new System.Drawing.Point(448, 21);
+            this.picResult.Location = new System.Drawing.Point(452, 12);
             this.picResult.Name = "picResult";
             this.picResult.Size = new System.Drawing.Size(370, 333);
             this.picResult.TabIndex = 1;
