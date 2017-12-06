@@ -1,0 +1,8 @@
+C:\Users\user\documents\visual studio 2013\Projects\IPRAD\IPRAD\bin\Debug\IPRAD.exe
+C:\Users\user\documents\visual studio 2013\Projects\IPRAD\IPRAD\bin\Debug\IPRAD.pdb
+C:\Users\user\documents\visual studio 2013\Projects\IPRAD\IPRAD\obj\Debug\IPRAD.csprojResolveAssemblyReference.cache
+C:\Users\user\documents\visual studio 2013\Projects\IPRAD\IPRAD\obj\Debug\IPRAD.Form1.resources
+C:\Users\user\documents\visual studio 2013\Projects\IPRAD\IPRAD\obj\Debug\IPRAD.Properties.Resources.resources
+C:\Users\user\documents\visual studio 2013\Projects\IPRAD\IPRAD\obj\Debug\IPRAD.csproj.GenerateResource.Cache
+C:\Users\user\documents\visual studio 2013\Projects\IPRAD\IPRAD\obj\Debug\IPRAD.exe
+C:\Users\user\documents\visual studio 2013\Projects\IPRAD\IPRAD\obj\Debug\IPRAD.pdb
